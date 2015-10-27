@@ -1,0 +1,232 @@
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Portfolio</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+ <!--[if lt IE 9]>
+     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Kreon:300,400,700' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- start plugins -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+<!----font-Awesome----->
+   	<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+<!----font-Awesome----->
+<!-- start light_box -->
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox-1.2.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("div.fancyDemo a").fancybox();
+		});
+	</script>
+
+</head>
+<body>
+<div class="header_bg" id="home"><!-- start header -->
+<div class="container">
+	<div class="row header text-center specials">
+		<div class="h_logo">
+			<a href="index.html"><img src="images/logo.png" alt="" class="responsive"/></a>
+		</div>
+		<nav class="top-nav">
+			<ul class="top-nav nav_list">
+				<li><a href="index.html">Strona G³ówna</a></li>
+				<li><a href="portfolio.html">portfolio</a></li>
+				<li class="page-scroll"><a href="index.html#about">O mnie</a></li>
+
+
+				<li class="page-scroll"><a href="index.html#contact">Kontakt</a></li>
+			</ul>
+			<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+		</nav>
+		<div class="clearfix"></div>
+	</div>
+</div>
+</div>
+<div class="container"><!-- start main -->
+	<div class="main row">
+ 	 	<h2 class="style">Strony www</h2>
+
+	 	 <div class="grids_of_4 row">
+				<div class="col-md-3 images_1_of_4">
+					<div class="fancyDemo">
+						<a rel="group" title="" href="images/pic50.jpg"><img src="images/pic50.jpg" alt=""class="img-responsive"/></a>
+					</div>
+					 <h3><a href="single-page.html">Onet.pl</a></h3>
+					 <p class="para">Najwiêkszy  polski internetowy portal</p>
+
+
+				</div>
+				<div class="col-md-3 images_1_of_4">
+					<div class="fancyDemo">
+						<a rel="group" title="" href="images/pic52.jpg"><img src="images/pic52.jpg" alt=""class="img-responsive"/></a>
+					</div>
+					 <h3><a href="single-page.html">cdprojekt.com</a></h3>
+					 <p class="para">Najwiêszy polski developer gier</p>
+
+				</div>
+				<div class="col-md-3 images_1_of_4">
+					<div class="fancyDemo">
+						<a rel="group" title="" href="images/pic54.jpg"><img src="images/pic54.jpg" alt=""class="img-responsive"/></a>
+					</div>
+				     <h3><a href="single-page.html">starsocks.eu/pl/</a></h3>
+					 <p class="para">Niezale¿ni twórcy gier komputerowych</p>
+
+				</div>
+				<div class="col-md-3 images_1_of_4">
+					<div class="fancyDemo">
+						<a rel="group" title="" href="images/pic56.jpg"><img src="images/pic56.jpg" alt=""class="img-responsive"/></a>
+					</div>
+					  <h3><a href="single-page.html">www.wp.pl</a></h3>
+					 <p class="para">Serwisy informacyjne, finansowe i rozrywkowe</p>
+
+				</div>
+				<div class="clear"></div>
+			</div>
+	</div>
+</div><!-- end main -->
+<div class="container"><!-- start main -->
+	<div class="main row">
+		<h2 class="style">Grafika</h2>
+
+		<div class="grids_of_4 row">
+			<div class="col-md-3 images_1_of_4">
+				<div class="fancyDemo">
+					<a rel="group" title="" href="images/pic20.jpg"><img src="images/pic20.jpg" alt=""class="img-responsive"/></a>
+				</div>
+				<h3><a href="single-page.html">Bogini B³yskawic (Slaves to love)</a></h3>
+				<p class="para">...tak tak to tylko kole¿anka z pracy</p>
+			</div>
+			<div class="col-md-3 images_1_of_4">
+				<div class="fancyDemo">
+					<a rel="group" title="" href="images/pic21.jpg"><img src="images/pic21.jpg" alt=""class="img-responsive"/></a>
+				</div>
+				<h3><a href="single-page.html">Holy Bible Salesman - Postapo</a></h3>
+				<p class="para">W czasach gdy po atomowej apokalipsie nie zosta³o ju¿ nic tylko ... wiara</p>
+			</div>
+			<div class="col-md-3 images_1_of_4">
+				<div class="fancyDemo">
+					<a rel="group" title="" href="images/pic22.jpg"><img src="images/pic22.jpg" alt=""class="img-responsive"/></a>
+				</div>
+				<h3><a href="single-page.html">Dancing Angel-Queen</a></h3>
+				<p class="para">tak... to znowu ona wariacja na temat pole dance</p>
+			</div>
+			<div class="col-md-3 images_1_of_4">
+				<div class="fancyDemo">
+					<a rel="group" title="" href="images/pic23.jpg"><img src="images/pic23.jpg" alt=""class="img-responsive"/></a>
+				</div>
+				<h3><a href="single-page.html">Elf Worrior-Queen</a></h3>
+				<p class="para">Malanowanie modelki w stylu Fantasy</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div><!-- end main -->
+<div class="container"><!-- start main -->
+	<div class="main row">
+		<h2 class="style">Sitodruki</h2>
+
+		<div class="grids_of_4 row">
+			<div class="col-md-3 images_1_of_4">
+				<div class="fancyDemo">
+					<a rel="group" title="" href="images/pic30.jpg"><img src="images/pic30.jpg" alt=""class="img-responsive"/></a>
+				</div>
+				<h3><a href="single-page.html">Orze³1</a></h3>
+				<p class="para">Orle wzbijaj siê w przestworza</p>
+
+			</div>
+			<div class="col-md-3 images_1_of_4">
+				<div class="fancyDemo">
+					<a rel="group" title="" href="images/pic31.jpg"><img src="images/pic31.jpg" alt=""class="img-responsive"/></a>
+				</div>
+				<h3><a href="single-page.html">Orze³2</a></h3>
+				<p class="para">Orze³ nowy wzór piastowski</p>
+
+			</div>
+			<div class="col-md-3 images_1_of_4">
+				<div class="fancyDemo">
+					<a rel="group" title="" href="images/pic32.jpg"><img src="images/pic32.jpg" alt=""class="img-responsive"/></a>
+				</div>
+				<h3><a href="single-page.html">My Dog</a></h3>
+				<p class="para">jestem, jestem !!!</p>
+
+			</div>
+			<div class="col-md-3 images_1_of_4">
+				<div class="fancyDemo">
+					<a rel="group" title="" href="images/pic34.jpg"><img src="images/pic34.jpg" alt=""class="img-responsive"/></a>
+				</div>
+				<h3><a href="single-page.html">Zombie</a></h3>
+				<p class="para">Wariacje na temat Zombie</p>
+
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div><!-- end main -->
+<div class="container"><!-- start main -->
+	<div class="main row">
+		<h2 class="style">Malarstwo</h2>
+
+		<div class="grids_of_4 row">
+			<div class="col-md-3 images_1_of_4">
+				<div class="fancyDemo">
+					<a rel="group" title="" href="images/pic40.jpg"><img src="images/pic40.jpg" alt=""class="img-responsive"/></a>
+				</div>
+				<h3><a href="single-page.html">You are old my dear !!!</a></h3>
+				<p class="para">...wariacje na temat.. jesieni - olej na p³ótnie 110*100 </p>
+			</div>
+			<div class="col-md-3 images_1_of_4">
+				<div class="fancyDemo">
+					<a rel="group" title="" href="images/pic41.jpg"><img src="images/pic41.jpg" alt=""class="img-responsive"/></a>
+				</div>
+				<h3><a href="single-page.html">Chaty</a></h3>
+				<p class="para">Chaty fantasy - olej na p³ótnie 80*60 </p>
+			</div>
+			<div class="col-md-3 images_1_of_4">
+				<div class="fancyDemo">
+					<a rel="group" title="" href="images/pic42.jpg"><img src="images/pic42.jpg" alt=""class="img-responsive"/></a>
+				</div>
+				<h3><a href="single-page.html">Las o poranku</a></h3>
+				<p class="para">Las w mgle - olej na p³ótnie 100*60</p>
+			</div>
+			<div class="col-md-3 images_1_of_4">
+				<div class="fancyDemo">
+					<a rel="group" title="" href="images/pic43.jpg"><img src="images/pic43.jpg" alt=""class="img-responsive"/></a>
+				</div>
+				<h3><a href="single-page.html">Wenecja</a></h3>
+				<p class="para">Weneckie kamienice - wêgiel na p³ótnie 60*50</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div><!-- end main -->
+
+</body>
+</html>
